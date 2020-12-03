@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Tugas Akhir PAB</string>
-    <string-array name= "Spinner_items">
+    <string-array name="Spinner_items">
         <item>Sekolah Menengah Pertama</item>
         <item>Sekolah Menengah Atas</item>
     </string-array>
