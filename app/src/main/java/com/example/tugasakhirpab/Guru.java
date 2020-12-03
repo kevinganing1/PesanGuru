@@ -14,5 +14,8 @@ public class Guru extends AppCompatActivity {
         // ini adalah guru yang telah dibina
         // falih asu
 
+        // dadkwkdadkdkaakdak
+
+
     }
 }
