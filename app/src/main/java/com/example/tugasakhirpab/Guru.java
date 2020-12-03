@@ -12,5 +12,7 @@ public class Guru extends AppCompatActivity {
         setContentView(R.layout.activity_guru);
 
         // ini adalah guru yang telah dibina
+        // falih asu
+
     }
 }
