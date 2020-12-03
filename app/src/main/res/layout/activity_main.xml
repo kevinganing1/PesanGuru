@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#673AB7"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PesanGuru"
-        android:textColor="#009688"
+        android:fontFamily="@font/faster_one"
+        android:text="PESAN GURU"
+        android:textColor="#FFFFFF"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,4 +43,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/jjj"
         tools:layout_editor_absoluteX="62dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
