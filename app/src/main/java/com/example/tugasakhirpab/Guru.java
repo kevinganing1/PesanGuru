@@ -15,7 +15,7 @@ public class Guru extends AppCompatActivity {
         // falih asu
 
         // dadkwkdadkdkaakdak
-
+        // Yomskyyy
 
     }
 }
