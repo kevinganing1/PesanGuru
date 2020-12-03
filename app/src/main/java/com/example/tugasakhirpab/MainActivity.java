@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void Menu_Utama(View view) {
-        startActivity(new Intent(MainActivity.this,MenuUtama.class));
+    public void MenuUtama(View view) {
+        startActivity(new Intent(MainActivity.this,Guru.class));
     }
 }
