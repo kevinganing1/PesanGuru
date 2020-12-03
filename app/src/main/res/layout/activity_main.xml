@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#673AB7"
     tools:context=".MainActivity">
-
+    /kontol
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
