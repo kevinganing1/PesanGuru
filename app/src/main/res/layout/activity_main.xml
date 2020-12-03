@@ -4,29 +4,5 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#673AB7"
-    tools:context=".MainActivity">
-    /kontol
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="133dp"
-        android:layout_height="79dp"
-        android:text="MULAI"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="286dp"
-        android:layout_height="432dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/jjj"
-        tools:layout_editor_absoluteX="62dp" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:background="#3bc4e4"
+    tools:context=".MainActivity"/>
