@@ -4,4 +4,16 @@
         <item>Sekolah Menengah Pertama</item>
         <item>Sekolah Menengah Atas</item>
     </string-array>
+
+    <string-array name="Spinner_items2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="Spinner_items3">
+        <item>Matematika</item>
+        <item>IPA</item>
+        <item>IPS</item>
+    </string-array>
 </resources>

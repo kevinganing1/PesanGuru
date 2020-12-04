@@ -1,32 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_height="match_parent"
-    tools:context=".MenuUtama" >
+    tools:context=".MenuUtama">
 
-    <Spinner
-        android:background="@drawable/style_spinner"
-        android:id="@+id/spinner1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp" />
+    <LinearLayout
+        android:layout_width="318dp"
+        android:layout_height="413dp"
+        android:background="@drawable/custom_1"
+        android:orientation="horizontal">
 
-    <Spinner
-        android:background="@drawable/style_spinner"
-        android:id="@+id/spinner2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="444dp"
+            android:orientation="vertical">
 
-    <Spinner
-        android:background="@drawable/style_spinner"
-        android:id="@+id/spinner3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="     Find Your Best Teacher Private!"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Jenjang Pendidikan"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:entries="@array/Spinner_items" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Kelas"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+
+                android:id="@+id/spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:entries="@array/Spinner_items2" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Mata Pelajaran"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <Spinner
+
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:entries="@array/Spinner_items3" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 
 </LinearLayout>
