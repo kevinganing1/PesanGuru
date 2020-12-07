@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.RatingBar;
 import android.widget.Spinner;
 import android.widget.Toast;
 import android.content.Intent;
@@ -46,5 +47,9 @@ public class MenuUtama extends AppCompatActivity implements AdapterView.OnItemSe
     @Override
     public void onNothingSelected(AdapterView<?> parent) {
 
+    }
+
+    public void TampilkanGuru(View view) {
+        startActivity(new Intent(MenuUtama.this, TampilkanGuru.class));
     }
 }
