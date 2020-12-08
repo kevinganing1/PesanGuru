@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imgPhoto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/imgPhoto"
+        android:text="Nama"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtName"
+        android:layout_toEndOf="@+id/imgPhoto"
+        android:text="No telepon"
+        android:ellipsize="end"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtPhone"
+        android:layout_toEndOf="@+id/imgPhoto"
+        android:text="Alamat"
+        android:ellipsize="end"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtJadwal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtAddress"
+        android:layout_toEndOf="@+id/imgPhoto"
+        android:text="Jadwal"
+        android:ellipsize="end"
+        android:textSize="18sp" />
+
+</RelativeLayout>
