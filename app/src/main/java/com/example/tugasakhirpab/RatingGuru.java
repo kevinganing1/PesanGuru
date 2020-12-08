@@ -23,14 +23,4 @@ public class RatingGuru extends AppCompatActivity {
 
     }
 
-    public void OnButtonClickListiner() {
-        btSubmit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(RatingGuru.this,
-                        String.valueOf(ratingBar.getRating()),
-                Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
 }
