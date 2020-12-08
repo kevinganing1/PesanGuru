@@ -11,13 +11,23 @@
     android:orientation="vertical"
     tools:context=".TampilkanGuru">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Temukan Guru Private Terbaikmu!"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="245dp"
         android:layout_height="211dp"
-        app:srcCompat="@drawable/tpbg"
         android:layout_centerHorizontal="true"
-        />
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/tpbg" />
 
     <ListView
         android:id="@+id/listView"

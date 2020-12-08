@@ -50,7 +50,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
-                    android:entries="@array/Spinner_items" />
+                    android:entries="@array/list" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -105,10 +105,10 @@
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="85dp"
         android:background="#93304a"
-        app:menu="@menu/menu_bottom"
+        app:itemIconTint="@drawable/color_state"
         app:itemTextColor="@drawable/color_state"
-        app:itemIconTint="@drawable/color_state"/>
+        app:menu="@menu/menu_bottom" />
 
 </LinearLayout>
