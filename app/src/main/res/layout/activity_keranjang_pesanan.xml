@@ -12,19 +12,27 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="16dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Daftar Pengguna"
-            android:textStyle="bold"/>
+            android:layout_gravity="center"
+            android:layout_marginLeft="115dp"
+            android:text="Daftar Pesanan"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/btnAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tambah" />
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/ic_addtocart" />
 
     </LinearLayout>
+
+
 
     <ListView
         android:id="@+id/lvList"

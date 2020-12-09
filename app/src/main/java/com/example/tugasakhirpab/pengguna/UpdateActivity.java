@@ -62,7 +62,7 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         }
 
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle("Edit Data");
+            getSupportActionBar().setTitle("Ubah Pesanan");
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
     }
@@ -152,11 +152,11 @@ public class UpdateActivity extends AppCompatActivity implements View.OnClickLis
         String dialogTitle, dialogMessage;
 
         if (isDialogClose) {
-            dialogTitle = "Batal";
-            dialogMessage = "Apakah anda ingin membatalkan perubahan pada form?";
+            dialogTitle = "Kembali";
+            dialogMessage = "Apakah anda ingin membatalkan perubahan?";
         } else {
-            dialogTitle = "Hapus Data";
-            dialogMessage = "Apakah anda yakin ingin menghapus item ini?";
+            dialogTitle = "Batalkan Pesanan";
+            dialogMessage = "Apakah anda yakin ingin membatalkan pesanan ini?";
         }
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);

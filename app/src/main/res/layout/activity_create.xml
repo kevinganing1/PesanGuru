@@ -57,8 +57,12 @@
         android:id="@+id/edtJadwal"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_1"
+        android:textColor="#FFFFFF"
         android:id="@+id/btnSave"
         android:text="Simpan" />
 

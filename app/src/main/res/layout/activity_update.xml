@@ -8,12 +8,6 @@
     android:layout_margin="16dp"
     tools:context=".pengguna.UpdateActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Edit data"
-        android:textSize="18sp"
-        android:textStyle="bold" />
 
     <TextView
         android:layout_width="match_parent"
@@ -60,9 +54,13 @@
         android:id="@+id/edtEditJadwal"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/btnUpdate"
-        android:text="Simpan" />
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_1"
+        android:text="Perbarui"
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>

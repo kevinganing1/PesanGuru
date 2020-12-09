@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.tugasakhirpab.pengguna.CreateActivity;
 
 public class TampilGuruBayar extends AppCompatActivity {
 
@@ -90,5 +93,9 @@ public class TampilGuruBayar extends AppCompatActivity {
             }
 
         }
+    }
+
+    public void PindahBiodata(View view) {
+        startActivity(new Intent(TampilGuruBayar.this, CreateActivity.class));
     }
 }

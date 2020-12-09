@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void MenuUtama(View view) {
-        startActivity(new Intent(MainActivity.this,TampilkanGuru.class));
+        startActivity(new Intent(MainActivity.this,MenuUtama.class));
     }
 }

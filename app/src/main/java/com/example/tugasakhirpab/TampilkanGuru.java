@@ -21,7 +21,16 @@ public class TampilkanGuru extends AppCompatActivity {
 
     ListView listView;
     String mTitle[]={"Roy", "kevin", "Ricky", "Cantika"};
-    String mDeskripsi[]={"test","test","test","test"};
+    String mDeskripsi[]={"Guru Private \n" +
+            "Sekolah Menengah Atas\n" +
+            "Kelas 1-3\n"+"Mata Pelajaran Matematika\n",
+            "Guru Private \n" +
+            "Sekolah Menengah Pertama\n" +
+            "Kelas 2\n"+"Mata Pelajaran Matematika\n","Guru Private \n" +
+            "Sekolah Menengah Atas\n" +
+            "Kelas 1\n"+"Mata Pelajaran IPA,IPS,Matematika\n","Guru Private \n" +
+            "Sekolah Menengah Atas\n" +
+            "Kelas 3\n"+"Mata Pelajaran IPS\n"};
     int image[]= {R.drawable.jum,R.drawable.haji,R.drawable.ricky,R.drawable.guru};
 
     @Override

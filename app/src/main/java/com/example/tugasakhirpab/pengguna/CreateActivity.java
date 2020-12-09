@@ -2,6 +2,7 @@ package com.example.tugasakhirpab.pengguna;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -9,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.tugasakhirpab.KeranjangPesanan;
+import com.example.tugasakhirpab.MenuUtama;
 import com.example.tugasakhirpab.R;
 import com.example.tugasakhirpab.model.Pengguna;
 import com.google.firebase.database.DatabaseReference;
@@ -46,7 +49,10 @@ public class CreateActivity extends AppCompatActivity implements View.OnClickLis
 
         if (view.getId() == R.id.btnSave) {
             savePengguna();
+            startActivity(new Intent(CreateActivity.this, KeranjangPesanan.class));
         }
+
+
 
     }
 
